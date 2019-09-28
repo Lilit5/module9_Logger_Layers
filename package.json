@@ -1,0 +1,21 @@
+{
+    "name": "magento.1_protractor",
+    "version": "1.0.0",
+    "main": "spec.js",
+    "dependencies": {
+        "protractor": "5.4.2",
+        "fs-extra": "^8.1.0",
+        "winston": "^3.2.1"
+    },
+    "scripts": {
+        "remove-logs": "node ./test/utils/cleanup/logsCleaner.js",
+        "postinstall": "webdriver-manager update --versions.standalone=3.4.0 --versions.chrome=76.0.3809.126",
+        "prestart-webdriver": "webdriver-manager update",
+        "start-webdriver": "webdriver-manager start",
+        "pretest": "npm run remove-logs",
+        "test": "protractor ./test/config/general/conf.js"
+    },
+    "author": "Lilit Sargsyan",
+    "license": "ISC",
+    "description": "This test creates simple product on Magento admin page"
+}

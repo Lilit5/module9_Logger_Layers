@@ -1,0 +1,43 @@
+info: ---------Logging In as "admin"
+info: ------Opening "http://magento.loc/admin/admin/dashboard/"
+info: ------Getting Current Url
+info: ---------Opening Login Page
+info: ------Opening "http://magento.loc/admin/login"
+info: Sending keys to "User Name"
+info: Sending keys to "Password"
+info: Clicking "Sign In"
+info: ------Getting Current Url
+info: ---------Logging out
+info: Clicking "Logged In User Name"
+info: Clicking "Sign Out"
+info: ------Getting Current Url
+info: ---------Logging In as "admin"
+info: ------Opening "http://magento.loc/admin/admin/dashboard/"
+info: ------Getting Current Url
+info: ---------Opening Login Page
+info: ------Opening "http://magento.loc/admin/login"
+info: Sending keys to "User Name"
+info: Sending keys to "Password"
+info: Clicking "Sign In"
+info: ---------Navigating to products page
+info: Clicking "Catalog"
+info: Clicking "Products"
+info: ---------Creting Simple Product
+info: ------Waiting element "Product Type Toggle" to be visible
+info: Clicking "Product Type Toggle"
+info: ------Waiting element "Simple Product" to be visible
+info: Clicking "Simple Product"
+info: ---------Filling Product Form
+info: ------Waiting element "Product Name" to be visible
+info: Sending keys to "Product Name"
+info: Sending keys to "Product Price"
+info: Clicking "Save"
+info: ------Waiting element "Product Name Label" to be visible
+info: Highlighting "Product Name Label"
+info: ---------Opening Products Grid Page
+info: ------Opening "http://magento.loc/admin/catalog/product"
+info: ------Waiting element "Product In Grid" to be visible
+info: Count of "Created Products" is "2"
+info: ---------Logging out
+info: Clicking "Logged In User Name"
+info: Clicking "Sign Out"
