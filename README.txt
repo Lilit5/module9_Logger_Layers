@@ -3,7 +3,7 @@ Magento testing tool
 Magento is an open-source e-commerce platform written in PHP. This tool is designed to test Magento basic functionality.
 
 Getting Started
-* Clone �magentoTestProtractorActionsJSExecutorSeleniumGrid� directory from the repository 
+* Clone this repository 
 * npm install to install all required dependencies
 
 
